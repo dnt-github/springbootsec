@@ -11,7 +11,7 @@ server:
     enabled: true 
     trust-store: classpath:ssl/truststore.jks
     trust-store-password: changeit
-    client-auth: need
+    client-auth: want
   port: 8443
   servlet.context-path: /rest-pki
     
