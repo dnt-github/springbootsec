@@ -9,5 +9,9 @@ server:
     key-store-password: changeit
     key-alias: localhost
     enabled: true 
+    trust-store: classpath:ssl/truststore.jks
+    trust-store-password: changeit
+    client-auth: want
   port: 8443
   servlet.context-path: /rest-pki
+    
